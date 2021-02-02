@@ -23,17 +23,17 @@ installed: /etc/systemd/system/xray@.service
 ### Install & Upgrade Xray-core and .dat files
 
 ```
-# bash <(curl -L https://raw.githubusercontent.com/ComeBey/xray/main/install-release.sh)
+# bash <(curl -L https://raw.githubusercontent.com/ComeBey/xray/master/install-release.sh)
 ```
 
 ### Update geoip.dat and geosite.dat only
 
 ```
-# bash <(curl -L https://raw.githubusercontent.com/ComeBey/xray/main/install-dat-release.sh)
+# bash <(curl -L https://raw.githubusercontent.com/ComeBey/xray/master/install-dat-release.sh)
 ```
 
 ### Remove Xray, except json and logs
 
 ```
-# bash <(curl -L https://raw.githubusercontent.com/ComeBey/xray/main/install-release.sh) --remove
+# bash <(curl -L https://raw.githubusercontent.com/ComeBey/xray/master/install-release.sh) --remove
 ```
